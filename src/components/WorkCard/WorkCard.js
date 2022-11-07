@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './WorkCard.scss'
 function WorkCard({ portfolioPiece }) {
     return (
         <>
@@ -8,12 +8,15 @@ function WorkCard({ portfolioPiece }) {
 
                 <div className="work-card__title-row">
                     <div className='work-card__title'>{portfolioPiece.title}</div>
-                    {portfolioPiece.links.map((link) => {
-                        return <a href={link.link}>{link.title}</a>
-                    })}
+                    <div className="work-card__links">
+                        {portfolioPiece.links.map((link) => {
+                            return <a className='work-card__link' href={link.link}>{link.title}</a>
+                        })}
+                    </div>
                 </div>
                 <div className="work-card__info">
                     <p className="work-card__role">{portfolioPiece.role}</p>
+                    <p className="work-card__stack">{portfolioPiece.stack}</p>
                     <p className="work-card__description">{portfolioPiece.description}</p>
                 </div>
 

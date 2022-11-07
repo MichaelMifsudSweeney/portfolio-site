@@ -19,7 +19,14 @@
 
 //UTILITY 
 
+
+
 @mixin flex-column() {
     display: flex;
     flex-direction: column;
+}
+
+@mixin header() {
+    font-family: Din;
+    font-weight: 700;
 }

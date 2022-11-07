@@ -1,0 +1,49 @@
+@use '../../styles/globals';
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+
+.work-card {
+    &__title {
+        @include header;
+        font-size: 24px;
+    }
+
+
+    &__title-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    &__links {
+        display: flex;
+        gap: $spacing-3;
+        
+    }
+
+
+    &__img {
+        width: 100%;
+        height: 200px;
+        background-color: grey;
+    }
+    &__link {
+        font-weight: 800;
+        color: #4C98F2;
+    }
+
+    &__info {
+        font-family: Din;
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: $spacing-2;
+        
+    }
+
+    &__stack {
+        padding-bottom: $spacing-2;
+    }
+    
+}

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import WorkCard from './components/WorkCard/WorkCard';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"

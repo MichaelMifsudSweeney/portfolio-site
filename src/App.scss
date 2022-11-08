@@ -4,17 +4,26 @@
 
 .App {
     padding: 0 $spacing-4;
+    width: 100%;
+    @include flex-column;
+    align-items: center;
 }
 
+.homepage {
+    width: 100%;
+    max-width: 800px;
+}
 .header {
-    padding: $spacing-6 0;
-    border-top: 6px solid black;
+    padding: $spacing-10 0;
     font-family: Din;
     @include flex-column;
     gap: $spacing-3;
     &__title {
         font-weight: 700;
         font-size: 24px;
+        @include tablet {
+            font-size: 36px;
+        }
     }
     &__about {
         font-weight: normal;
@@ -22,7 +31,7 @@
 }
 
 .section__subtitle {
-    border-top: 6px solid black;
+    
     padding: $spacing-4 0;
     font-weight: 700;
     font-size: 14px;

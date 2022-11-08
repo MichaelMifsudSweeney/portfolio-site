@@ -1,0 +1,45 @@
+@use '../../styles/globals';
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.tidbits{
+    font-family: Din;
+    padding: $spacing-8 $spacing-4;
+    width: 100%;
+    @include flex-column;
+    align-items: center;
+    
+    &__content {
+        width: 100%;
+        max-width: 800px;
+    }
+    &__img {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+    &__description {
+        font-size: 16px;
+    }
+
+    &__title {
+        @include header;
+        padding:$spacing-6 0 $spacing-2; 
+        @include tablet {
+            font-size: 36px;
+        }   
+    }
+
+    &__subhead {
+        
+    padding:$spacing-4 0 $spacing-2;
+    font-weight: 700;
+    font-size: 14px;
+    }
+
+    &__caption {
+        width: 100%;
+        text-align: center;
+        padding-bottom: $spacing-7;
+        opacity: 0.5;
+    }
+}

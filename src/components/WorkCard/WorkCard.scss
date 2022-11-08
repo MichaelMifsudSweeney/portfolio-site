@@ -7,6 +7,7 @@
     &__title {
         @include header;
         font-size: 24px;
+        padding-top: $spacing-4;
     }
 
 
@@ -26,12 +27,14 @@
 
     &__img {
         width: 100%;
-        height: 200px;
-        background-color: grey;
+        background-color: rgba(0, 0, 0, 0.04);
     }
     &__link {
         font-weight: 800;
-        color: #4C98F2;
+        color: #4197ff;
+        &:hover {
+            text-decoration:underline;
+        }
     }
 
     &__info {

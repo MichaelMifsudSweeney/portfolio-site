@@ -1,0 +1,14 @@
+@use '../../styles/globals';
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.footer {
+    font-family: Din;
+    font-weight: 800;
+    opacity: 0.25;
+    width: 100%;
+    padding: $spacing-8 0;
+    text-align: center;
+    
+    
+}

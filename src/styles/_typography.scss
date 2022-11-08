@@ -1,19 +1,25 @@
 @font-face {
     font-family: Din;
-    src: url("../assets/fonts/din/DINNextLTPro-Black.otf");
+    src: url("../assets/fonts/din/DINNextLTPro-Black.otf") format('otf'),
+        url('../assets/fonts/din/DINNextLTPro-Black.woff2') format('woff2'),
+        url('../assets/fonts/din/DINNextLTPro-Black.woff') format('woff'),
+        url('../assets/fonts/din/DINNextLTPro-Black.ttf') format('truetype');
     font-weight: 800;
 }
 
 @font-face {
     font-family: Din;
-    src: url("../assets/fonts/din/DINNextLTPro-Heavy.otf");
+    src: url("../assets/fonts/din/DINNextLTPro-Heavy.otf") format('otf'),
+        url('../assets/fonts/din/DINNextLTPro-Heavy.woff2') format('woff2'),
+        url('../assets/fonts/din/DINNextLTPro-Heavy.woff') format('woff'),
+        url('../assets/fonts/din/DINNextLTPro-Heavy.ttf') format('truetype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: Din;
     src: url("../assets/fonts/din/DINNextLTPro-Bold.otf") format('otf'),
-    url('../assets/fonts/din/DINNextLTPro-Bold.woff2') format('woff2'),
+        url('../assets/fonts/din/DINNextLTPro-Bold.woff2') format('woff2'),
         url('../assets/fonts/din/DINNextLTPro-Bold.woff') format('woff'),
         url('../assets/fonts/din/DINNextLTPro-Bold.ttf') format('truetype');
     font-weight: 600;
@@ -21,12 +27,18 @@
 
 @font-face {
     font-family: Din;
-    src: url("../assets/fonts/din/DINNextLTPro-Medium.otf");
+    src: url("../assets/fonts/din/DINNextLTPro-Medium.otf") format('otf'),
+        url('../assets/fonts/din/DINNextLTPro-Medium.woff2') format('woff2'),
+        url('../assets/fonts/din/DINNextLTPro-Medium.woff') format('woff'),
+        url('../assets/fonts/din/DINNextLTPro-Medium.ttf') format('truetype');
     font-weight: 500;
-} 
+}
 
 @font-face {
     font-family: Din;
-    src: url("../assets/fonts/din/DINNextLTPro-Regular.otf");
+    src: url("../assets/fonts/din/DINNextLTPro-Regular.otf") format('otf'),
+        url('../assets/fonts/din/DINNextLTPro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/din/DINNextLTPro-Regular.woff') format('woff'),
+        url('../assets/fonts/din/DINNextLTPro-Regular.ttf') format('truetype');
     font-weight: 400;
 }

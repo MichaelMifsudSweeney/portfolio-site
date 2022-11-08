@@ -12,7 +12,10 @@
 
 @font-face {
     font-family: Din;
-    src: url("../assets/fonts/din/DINNextLTPro-Bold.otf");
+    src: url("../assets/fonts/din/DINNextLTPro-Bold.otf") format('otf'),
+    url('../assets/fonts/din/DINNextLTPro-Bold.woff2') format('woff2'),
+        url('../assets/fonts/din/DINNextLTPro-Bold.woff') format('woff'),
+        url('../assets/fonts/din/DINNextLTPro-Bold.ttf') format('truetype');
     font-weight: 600;
 }
 

@@ -3,6 +3,8 @@ import WorkCard from './components/WorkCard/WorkCard';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import Tidbits from './pages/Tidbits/Tidbits';
 import Footer from './components/Footer/Footer';
+import { v4 as uuidv4 } from 'uuid';
+
 const listOfWork = [
   {
     title: "Tidbits",
@@ -37,8 +39,6 @@ const listOfWork = [
   // }
 ]
 
-const test = [{ title: "hello" }]
-console.log(listOfWork)
 function App() {
   return (
     <BrowserRouter>
@@ -55,7 +55,7 @@ function App() {
               <h3 className='section__subtitle'>WORK</h3>
               <div className="listOfPortfolioPieces">
                 {listOfWork.map((portfolioPiece) => {
-                  return <WorkCard portfolioPiece={portfolioPiece} />
+                  return <WorkCard portfolioPiece={portfolioPiece} key= {uuidv4()} />
                 })}
               </div>
             </main>

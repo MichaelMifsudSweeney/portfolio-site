@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './WorkCard.scss'
+import { v4 as uuidv4 } from 'uuid';
 function WorkCard({ portfolioPiece }) {
     return (
         <>
@@ -13,11 +14,11 @@ function WorkCard({ portfolioPiece }) {
                         {portfolioPiece.links.map((link) => {
 
                             if(link.title === "Details") {
-                                return <Link className='work-card__link' to={`/${link.link}`}>About</Link>
+                                return <Link className='work-card__link' key= {uuidv4()} to={`/${link.link}`}>About</Link>
                             }
                             
 
-                            return <a className='work-card__link' href={link.link}>{link.title}</a>
+                            return <a className='work-card__link' key= {uuidv4()} href={link.link}>{link.title}</a>
                         })}
                     </div>
                 </div>

@@ -1,0 +1,31 @@
+@use '../../styles/globals';
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    padding: $spacing-2 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+
+    &__about-link {
+        font-family: Din;
+        font-size: 16px;
+        font-weight: 700;
+        color: #4197ff;
+        &:hover {
+            text-decoration:underline;
+        }
+    }
+
+}

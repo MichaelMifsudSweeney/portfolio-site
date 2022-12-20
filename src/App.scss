@@ -16,7 +16,7 @@
 }
 .header {
     padding: $spacing-10 0;
-    font-family: Din;
+    
     @include flex-column;
     gap: $spacing-3;
     &__title {

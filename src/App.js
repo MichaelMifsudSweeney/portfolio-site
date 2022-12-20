@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import Tidbits from './pages/Tidbits/Tidbits';
 import Footer from './components/Footer/Footer';
 import { v4 as uuidv4 } from 'uuid';
+import Navigation from './components/Navigation/Navigation';
+import About from './pages/About/About';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const listOfWork = [
   {
@@ -42,13 +45,15 @@ const listOfWork = [
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
+        <Navigation />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={
             <main className='homepage'>
               <header className='header'>
-                <h1 className='header__title'>Mike <br /> Mifsud-Sweeney</h1>
+                <h1 className='header__title'>Mike Mifsud-Sweeney</h1>
                 <p className='header__about'>Developer with experience designing products at Meta. Looking for a developer role.</p>
                 <p className="header__email">michaelmifsudsweeney@gmail.com</p>
               </header>
@@ -60,7 +65,7 @@ function App() {
               </div>
             </main>
           } />
-
+          <Route path="/about" element={<About />} />
           <Route path="/tidbits" element={<Tidbits />} />
         </Routes>
         <Footer />

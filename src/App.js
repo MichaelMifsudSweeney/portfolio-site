@@ -54,7 +54,7 @@ function App() {
             <main className='homepage'>
               <header className='header'>
                 <h1 className='header__title'>Mike Mifsud-Sweeney</h1>
-                <p className='header__about'>Developer with experience designing products at Meta. Looking for a developer role.</p>
+                <p className='header__about'>Developer with experience designing products at Meta. </p>
                 <p className="header__email">michaelmifsudsweeney@gmail.com</p>
               </header>
               <h3 className='section__subtitle'>WORK</h3>

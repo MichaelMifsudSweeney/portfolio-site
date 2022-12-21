@@ -4,10 +4,11 @@
 
 
 .work-card {
+    padding-top: $spacing-2;
     &__title {
         @include header;
         font-size: 24px;
-        padding-top: $spacing-4;
+        
     }
 
 

@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Navigation from './components/Navigation/Navigation';
 import About from './pages/About/About';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import DesignWork from './pages/DesignWork/DesignWork';
 
 const listOfWork = [
   {
@@ -33,13 +34,13 @@ const listOfWork = [
     links: [{ title: "Live", link: "https://www.custom-wordle.com/" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/Custom-Wordle" }],
     img: "CustomWordleHero"
   },
-  // {title:"Design and other work",
-  // role:"Lead Developer/Designer",
-  // stack:"Figma, Sketch, Processing, Origami Studio, Illustrator",
-  // description:"Assorted Design work including launched designs, prototypes, data visualizations, and posters",
-  // links:[{title:"Live",link:"https://www.custom-wordle.com/"},{title:"Github", link:"https://github.com/MichaelMifsudSweeney/Custom-Wordle"}],
-  // img:"CustomWordleHero"
-  // }
+  {title:"Design and Other Work",
+  role:"Lead Designer/Developer",
+  stack:"Figma, Sketch, Processing, Origami Studio, Illustrator",
+  description:"Assorted Design work including launched designs, prototypes, data visualizations, and posters",
+  links: [{ title: "See more", link: "design" }],
+  img:"MoreHero"
+  }
 ]
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
           } />
           <Route path="/about" element={<About />} />
           <Route path="/tidbits" element={<Tidbits />} />
+          <Route path="/design" element={<DesignWork />} />
         </Routes>
         <Footer />
       </div>

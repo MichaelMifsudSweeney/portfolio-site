@@ -1,0 +1,16 @@
+@use '../../styles/globals';
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+iframe {
+    height: 500px;
+    width: 100%;
+    
+    
+}
+
+.video-wrapper {
+    
+    
+    position: relative;
+}

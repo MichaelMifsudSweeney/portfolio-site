@@ -4,7 +4,7 @@
 
 .tidbits{
     font-family: Din;
-    padding: $spacing-8 $spacing-4;
+    padding: $spacing-8 $spacing-1;
     width: 100%;
     @include flex-column;
     align-items: center;
@@ -38,8 +38,11 @@
 
     &__caption {
         width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
         text-align: center;
         padding-bottom: $spacing-7;
+        padding-top: $spacing-2;
         opacity: 0.5;
     }
 }

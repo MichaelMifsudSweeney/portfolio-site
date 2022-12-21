@@ -3,8 +3,13 @@
 @use '../../styles/variables' as *;
 
 iframe {
-    height: 500px;
+    
+    
     width: 100%;
+
+    @include tablet {
+        height: 500px;
+    }
     
     
 }

@@ -11,7 +11,7 @@ function About() {
                 </p>
                 <p className='about__paragraph'>I focus a lot on communication and have been known to enjoy explaining technical ideas to non-technical people.
                 </p>
-                <p className='about__paragraph'>In my free time, I'm a Musician, cat enthusiast, and Dungeons and Dragons player. 🕺 🐈 ⚔️
+                <p className='about__paragraph'>In my free time, I'm a musician, cat enthusiast, and Dungeons and Dragons player. 🕺 🐈 ⚔️
                 </p>
                 <p className='about__paragraph'>I'm currently open to opportunities! Feel free to email me at michaelmifsudsweeney@gmail.
                 </p>

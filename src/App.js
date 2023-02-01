@@ -56,7 +56,9 @@ function App() {
               <header className='header'>
                 <h1 className='header__title'>Mike Mifsud-Sweeney</h1>
                 <p className='header__about'>Developer with experience designing products at Meta. </p>
-                <p className='header__about'>Currently open to opportunities that involve: creating tools, delightful experiences, design systems or are socially good. Feel free to email me at <b> michaelmifsudsweeney@gmail.com </b> if you'd like to chat more. </p>
+                <p className='header__about'>Feel free to email me at <b> michaelmifsudsweeney@gmail.com </b> if you'd like to chat. </p>
+                <p className='header__about'>Currently open to opportunities.  </p>
+                
                 
               </header>
               <h3 className='section__subtitle'>WORK</h3>

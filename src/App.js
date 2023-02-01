@@ -11,20 +11,20 @@ import DesignWork from './pages/DesignWork/DesignWork';
 
 const listOfWork = [
   {
-    title: "Tidbits",
-    role: "Lead Developer",
-    stack: "SwiftUI, Swift, Firebase Firestore, Authentication",
-    description: "A delightful, clean, rolodex app for iOS",
-    links: [{ title: "Details", link: "tidbits" }],
-    img: "TidbitsHero"
-  },
-  {
     title: "Bored Games",
     role: "Lead Developer/Designer",
-    stack: "HTML, SCSS, React, Express, Node",
+    stack: "React, SCSS, AWS Amplify, Firebase Firestore, Firestore Authentication (formally an Express Server)",
     description: "A  rental marketplace for board games",
     links: [{ title: "Live", link: "https://www.bored-games.ca/home" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/bored-games" }],
     img: "BoredGamesHero"
+  },
+  {
+    title: "Tidbits",
+    role: "Lead Developer",
+    stack: "SwiftUI, Swift, Firebase Firestore, Firestore Authentication",
+    description: "A delightful, clean, rolodex app for iOS",
+    links: [{ title: "Details", link: "tidbits" }],
+    img: "TidbitsHero"
   },
   {
     title: "Custom Wordle",
@@ -56,7 +56,9 @@ function App() {
               <header className='header'>
                 <h1 className='header__title'>Mike Mifsud-Sweeney</h1>
                 <p className='header__about'>Developer with experience designing products at Meta. </p>
-                <p className='header__about'>Currently open to opportunities that involve: creating tools, delightful experiences, design systems or are socially good. Feel free to email me at <b> michaelmifsudsweeney@gmail.com </b> if you'd like to chat more. </p>
+                <p className='header__about'>Feel free to email me at <b> michaelmifsudsweeney@gmail.com </b> if you'd like to chat. </p>
+                <p className='header__about'>Currently open to opportunities.  </p>
+                
                 
               </header>
               <h3 className='section__subtitle'>WORK</h3>

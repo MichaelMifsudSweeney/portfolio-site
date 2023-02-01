@@ -5,7 +5,8 @@ function About() {
         <>
             <main className='about'>
                 <h1 className='about__header'>Hello!</h1>
-                <p className='about__paragraph'>I'm Mike! I'm a Product Designer turned Developer based out of Toronto. I like making beautiful, useful experiences. </p>
+                <p className='about__paragraph'>I'm Mike! I'm a Product Designer turned Developer based out of Toronto.  </p>
+                <p className='about__paragraph'>I like making beautiful, useful experiences.</p>
                 <p className='about__paragraph'>I was a Product Designer on Facebook (now Meta) Messenger, if you’ve used Messenger in the past years you may have seen some of my work!</p>
                 <p className='about__paragraph'>I worked on Messenger's Design System, Live Location, Polls, Reporting, and Photos. Before that, I was an intern on Facebook’s Charitable Giving team and the Graphic Design intern at the Region of Peel.</p>
                 <p className='about__paragraph'>I have a Bachelor of Design from York University/Sheridan College and recently completed BrainStation's Web Development Bootcamp.

@@ -13,7 +13,7 @@ const listOfWork = [
   {
     title: "Bored Games",
     role: "Lead Developer/Designer",
-    stack: "React, SCSS, Firebase Firestore, Firestore Authentication (formally an Express Server)",
+    stack: "React, SCSS, AWS Amplify, Firebase Firestore, Firestore Authentication (formally an Express Server)",
     description: "A  rental marketplace for board games",
     links: [{ title: "Live", link: "https://www.bored-games.ca/home" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/bored-games" }],
     img: "BoredGamesHero"

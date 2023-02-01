@@ -11,20 +11,20 @@ import DesignWork from './pages/DesignWork/DesignWork';
 
 const listOfWork = [
   {
-    title: "Tidbits",
-    role: "Lead Developer",
-    stack: "SwiftUI, Swift, Firebase Firestore, Authentication",
-    description: "A delightful, clean, rolodex app for iOS",
-    links: [{ title: "Details", link: "tidbits" }],
-    img: "TidbitsHero"
-  },
-  {
     title: "Bored Games",
     role: "Lead Developer/Designer",
-    stack: "HTML, SCSS, React, Express, Node",
+    stack: "React, SCSS, Firebase Firestore, Firestore Authentication (formally an Express Server)",
     description: "A  rental marketplace for board games",
     links: [{ title: "Live", link: "https://www.bored-games.ca/home" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/bored-games" }],
     img: "BoredGamesHero"
+  },
+  {
+    title: "Tidbits",
+    role: "Lead Developer",
+    stack: "SwiftUI, Swift, Firebase Firestore, Firestore Authentication",
+    description: "A delightful, clean, rolodex app for iOS",
+    links: [{ title: "Details", link: "tidbits" }],
+    img: "TidbitsHero"
   },
   {
     title: "Custom Wordle",

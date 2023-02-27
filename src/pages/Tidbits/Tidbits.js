@@ -38,6 +38,8 @@ function Tidbits() {
                     <img className='tidbits__img' src={require('../../assets/imgs/TidbitsScreenshot3.png')} alt="" />
                     
                     <p className="tidbits__caption">Apple Sign in</p>
+
+                    <div><iframe style={{ border: 'none', width: '100%', minHeight: "400px" }} src="https://player.vimeo.com/video/802793218?h=c044dd4d3b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="Tidbits"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
             </div>
             

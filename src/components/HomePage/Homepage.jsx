@@ -17,7 +17,7 @@ function Homepage() {
             img: "YorkUModulesHero"
         },
         {
-            title: "UNICEF Birdlab",
+            title: "UNICEF BIRD Lab",
             role: "Developer",
             stack: "Webflow, HTML, CSS, Javascript",
             description: "Webflow website for UNICEF’s Behavioural Insights Research and Design Lab including CMS and custom Javascript.",

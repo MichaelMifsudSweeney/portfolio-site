@@ -13,10 +13,27 @@
     background-color: white;
     align-items: center;
     z-index: 9999999;
+
+    &__logo-and-back-chevron {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__logo {
+        height: 22px;
+        
+    }
+
+    &__back-chevron {
+        height: 18px;
+    }
     
     &__link {
         text-decoration: none;
         color: black;
+        display: flex;
+        align-items: center;
     }
 
     &__about-link {

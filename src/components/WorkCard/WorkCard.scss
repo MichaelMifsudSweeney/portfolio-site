@@ -4,6 +4,8 @@
 
 
 .work-card {
+    @include flex-column;
+    gap: $spacing-4;
     padding-top: $spacing-2;
     &__title {
         @include header;
@@ -16,6 +18,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+    }
+
+    &__title-row-and-info {
+        @include flex-column;
+        gap: $spacing-2;
         
     }
 
@@ -43,7 +51,7 @@
         font-family: Din;
         font-weight: 400;
         font-size: 16px;
-        padding-top: $spacing-2;
+        
         
     }
 

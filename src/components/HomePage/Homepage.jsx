@@ -9,9 +9,17 @@ function Homepage() {
 
     const listOfWork = [
         {
+            title: "United Nations Development Programme's Annual Report Website",
+            role: "Developer",
+            stack: "React, Typescript, Tailwind, Framer Motion, AWS S3, AWS Cloudfront",
+            description: "Custom Microsite to celebrate the launch of the UNDP's annual report.",
+            links: [{ title: "Live", link: "https://report.hdr.undp.org/" }],
+            img: "UNDPHero"
+        },
+        {
             title: "York University's Academic Innovation Modules",
             role: "Developer",
-            stack: "React, SCSS, AWS Amplify",
+            stack: "React, SCSS, Framer-Motion, AWS Amplify",
             description: "Custom e-learning modules that include videos, surveys, and interactive activities.",
             links: [{ title: "Live", link: "https://www.academicinnovationmodules.com/" }],
             img: "YorkUModulesHero"

@@ -1,19 +1,34 @@
 import React from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import WorkCard from '../../components/WorkCard/WorkCard';
 import { v4 as uuidv4 } from 'uuid';
 import { container, item } from '../../utils/pageAnimation';
 import Footer from '../Footer/Footer';
-import ScrollToTop from '../ScrollToTop/ScrollToTop';
 function Homepage() {
 
     const listOfWork = [
         {
-            title: "United Nations Development Programme's Annual Report Website",
+            title: "2025 United Nations Development Programme's Annual Report",
             role: "Developer",
-            stack: "React, Typescript, Tailwind, Framer Motion, AWS S3, AWS Cloudfront",
+            stack: "React, Typescript, Tailwind, Framer Motion, AWS",
             description: "Custom Microsite to celebrate the launch of the UNDP's annual report.",
             links: [{ title: "Live", link: "https://report.hdr.undp.org/" }],
+            img: "UNDP-2025-Hero"
+        },
+        {
+            title: "LiUNA! 506 Apprenticeship Journeys",
+            role: "Developer",
+            stack: "React, Typescript, Tailwind, Framer Motion, Azure",
+            description: "Custom Microsite to celebrate the launch of the UNDP's annual report.",
+            links: [{ title: "Live", link: "https://journey.liuna506training.ca/" }],
+            img: "Liuna-Training-Centre-Hero"
+        },
+        {
+            title: "2024 United Nations Development Programme's Annual Report",
+            role: "Developer",
+            stack: "React, Typescript, Tailwind, Framer Motion, AWS",
+            description: "Custom Microsite to celebrate the launch of the UNDP's annual report.",
+            links: [{ title: "Live", link: "http://report2023-24.hdr.undp.org.s3-website-us-east-1.amazonaws.com/" }],
             img: "UNDPHero"
         },
         {
@@ -23,6 +38,14 @@ function Homepage() {
             description: "Custom e-learning modules that include videos, surveys, and interactive activities.",
             links: [{ title: "Live", link: "https://www.academicinnovationmodules.com/" }],
             img: "YorkUModulesHero"
+        },
+        {
+            title: "Sandbox Inc.",
+            role: "Developer",
+            stack: "Webflow, HTML, CSS, Javascript",
+            description: "Custom Microsite to celebrate the launch of the UNDP's annual report.",
+            links: [{ title: "Live", link: "https://www.sandboxinc.ca" }],
+            img: "Sandbox-Website-2025-Hero"
         },
         {
             title: "UNICEF BIRD Lab",
@@ -47,14 +70,6 @@ function Homepage() {
             description: "A  rental marketplace for board games.",
             links: [{ title: "Live", link: "https://www.bored-games.ca/home" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/bored-games" }],
             img: "BoredGamesHero"
-        },
-        {
-            title: "Custom Wordle",
-            role: "Developer/Designer",
-            stack: "HTML, SCSS, Firebase Firestore, AWS Amplify",
-            description: "Make your friends their very own Wordle!",
-            links: [{ title: "Live", link: "https://www.custom-wordle.com/" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/Custom-Wordle" }],
-            img: "CustomWordleHero"
         },
         {
             title: "Design and Other Work",

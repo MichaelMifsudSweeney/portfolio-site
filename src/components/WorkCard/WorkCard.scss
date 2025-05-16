@@ -10,6 +10,7 @@
     &__title {
         @include header;
         font-size: 24px;
+        text-wrap: balance;
         
     }
 

@@ -8,6 +8,14 @@ function Homepage() {
 
     const listOfWork = [
         {
+            title: "Future Skills Centre Impact Report",
+            role: "Developer",
+            stack: "React, Typescript, Tailwind, Framer Motion, AWS",
+            description: "Custom Microsite to celebrate the launch of the UNDP's annual report.",
+            links: [{ title: "Live", link: "https://impact.fsc-ccf.ca/" }],
+            img: "FSC-Hero"
+        },
+        {
             title: "2025 United Nations Development Programme's Annual Report",
             role: "Developer",
             stack: "React, Typescript, Tailwind, Framer Motion, AWS",
@@ -62,14 +70,6 @@ function Homepage() {
             description: "A delightful, clean, rolodex app for iOS.",
             links: [{ title: "Details", link: "tidbits" }],
             img: "TidbitsHero"
-        },
-        {
-            title: "Bored Games",
-            role: "Developer/Designer",
-            stack: "React, SCSS, AWS Amplify, Firebase Firestore, Firestore Authentication",
-            description: "A  rental marketplace for board games.",
-            links: [{ title: "Live", link: "https://www.bored-games.ca/home" }, { title: "Github", link: "https://github.com/MichaelMifsudSweeney/bored-games" }],
-            img: "BoredGamesHero"
         },
         {
             title: "Design and Other Work",
